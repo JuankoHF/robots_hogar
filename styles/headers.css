@@ -1,0 +1,204 @@
+@import "./global.css";
+
+.header_top_continer {
+    width: 100vw;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var( --secundary-color);
+    position: relative
+}
+.social_and_email {
+    width: 70%;
+    max-width: 360px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social_and_email a {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--white-page);
+    font-size: var(--font-1-small);
+}
+.social_and_email a span {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon_insta {
+    background: url(../icons/instagram-white.svg); 
+}
+.icon_link {
+    background: url(../icons/linkedin-white.svg);
+}
+.icon_google {
+    background: url(../icons/google-plus-white.svg);
+}
+.icon_email {
+    background: url(../icons/mail-white.svg);
+}
+
+.header_bottom_container {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var( --primary-color);
+    position: relative;
+    padding: 0 10%;
+}
+
+.header_left {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.content_logo {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.content_logo img {
+    width: 24px;
+    height: 28px;
+    object-fit: cover;
+    /* margin-bottom: 4px; */
+}
+.content_logo span {
+    font-size: var( --font-1-medium);
+    letter-spacing: 0.6px;
+    color: var(--white-page);
+    font-weight: bold;
+}
+.header_left p {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: var( --font-2-medium);
+    color: var(--white-page);
+    letter-spacing: 1.4px;
+    /* padding: 4px 12px;
+    background: var(--secundary-color);
+    border-radius: 8px; */
+}
+
+.header_right {
+    width: auto;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.menu {
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: url(../icons/menu-right-white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.change_icon {
+    width: 28px;
+    height: 28px;
+    background: url(../icons/close-menu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list_nav_container {
+    width: 100vw;
+    height: auto;
+    padding: 30px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    clip-path: inset(0 0 100% 0);
+    border-top: solid 2px var(--secundary-color);
+    transition: 0.6s ease-in-out;
+}
+
+.open_all_menu {
+    clip-path: inset(0 0 0 0);
+    transition: 0.6s ease-in-out;
+}
+.nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    overflow: visible;
+
+}
+.nav li {
+    width: auto;
+    height: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 8px 0;
+    overflow: visible;
+
+}
+.nav li a {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: var(--white-page);
+    font-weight: bold;
+    font-size: var(--font-16-medium);
+    text-transform: capitalize;
+}
+.nav li span {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 10%;
+    display: block;
+    background: url(../icons/down-arrow-black.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav li ul {
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0px;
+    top: 12px;
+    padding-left: 16px;
+    clip-path: inset(0 0 100% 0);
+    transition: 0.6s ease-in-out;
+    border-left: solid 1px var(--white-page);
+}
+
+.nav_limp_open {
+    height: auto !important;
+    margin-bottom: 12px;
+    clip-path: inset(0 0 0 0) !important;
+    transition: 0.6s ease-in-out !important;
+}
+.arrow_up {
+    transform: rotate(180deg);
+    transition: all 0.4s ease-in-out;
+}
