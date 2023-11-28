@@ -54,7 +54,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var( --primary-color);
-    position: relative;
+    position: absolute;
     padding: 0 10%;
 }
 
@@ -124,6 +124,10 @@
     width: 100vw;
     height: auto;
     padding: 30px;
+    position: absolute;
+    top: 92px;
+    left: 0px;
+    z-index: 10;
     background-color: var(--primary-color);
     display: flex;
     justify-content: flex-start;
