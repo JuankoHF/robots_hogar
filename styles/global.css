@@ -36,3 +36,7 @@ h1, h2, h3 {
 header {
     z-index: 10;
 }
+main {
+    width: 100vw;
+    background-color: var(--white-page);
+}

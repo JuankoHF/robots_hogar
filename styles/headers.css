@@ -46,7 +46,13 @@
 .icon_email {
     background: url(../icons/mail-white.svg);
 }
-
+.header_and_nav_content {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    overflow-y: hidden;
+}
 .header_bottom_container {
     width: 100vw;
     height: 60px;
@@ -56,8 +62,13 @@
     background-color: var( --primary-color);
     position: absolute;
     padding: 0 10%;
+    z-index: 10;
 }
-
+.fixed_menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 .header_left {
     width: auto;
     height: auto;
@@ -136,7 +147,10 @@
     border-top: solid 2px var(--secundary-color);
     transition: 0.6s ease-in-out;
 }
-
+.fixed_nav {
+    position: fixed;
+    top: 60px;
+}
 .open_all_menu {
     clip-path: inset(0 0 0 0);
     transition: 0.6s ease-in-out;
@@ -167,7 +181,7 @@
     text-decoration: none;
     color: var(--white-page);
     font-weight: bold;
-    font-size: var(--font-16-medium);
+    font-size: var(--font-14-medium);
     text-transform: capitalize;
 }
 .nav li span {
