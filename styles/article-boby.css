@@ -1,0 +1,24 @@
+@import "./global.css";
+
+.article_body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+}
+.introduction {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.introduction p {
+    font-size: var(--font-12-medium);
+    color: var(--total-black);
+}
