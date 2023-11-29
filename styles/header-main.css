@@ -65,13 +65,38 @@
         font-size: var(--font-14-medium);
     }
 }
-@media screen and (min-width: 700px) and (min-width: 510px) {
+@media screen and (min-width: 700px) and (min-height: 510px) {
    
     .description_content {
         justify-content: space-between;
         padding: 70px 12% 90px;
     }
 
+    .description_content h1 {
+        width: 60%;
+        max-width: 340px;
+        font-size: var(--font-28-big);
+        letter-spacing: 1.2px;
+    }
+    .description_content p {
+        width: 75%;
+        max-width: 450px;
+        font-size: var(--font-18-medium);
+        letter-spacing: 0.8px; 
+    }
+}
+
+@media screen and (min-width: 830px) and (max-height: 509px) {
+    .image_and_description img {
+        width: 100%;
+        max-height: 360px;
+        object-fit: cover;
+    }
+    .description_content {
+        justify-content: space-between;
+        padding: 32px 16% 60px;
+        max-height: 360px;
+    }
     .description_content h1 {
         width: 60%;
         max-width: 340px;
