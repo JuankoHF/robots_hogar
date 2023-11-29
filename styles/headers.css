@@ -239,3 +239,28 @@
         padding: 30px 40px 20px;
     }
 }
+
+@media screen and (min-width: 700px) and (min-width: 510px) {
+   
+    .social_and_email {
+        width: 70%;
+        max-width: 320px;
+    }
+    .social_and_email a span {
+        width: 24px;
+        height: 24px;
+    }
+    .social_and_email a {
+        gap: 8px;
+        font-size: var(--font-12-medium);
+    }
+
+    .list_nav_container {
+        padding: 36px 100px 24px;
+    }
+
+    .nav .go_tope {
+        width: 70%;
+        margin: 28px auto 0;
+    }
+}

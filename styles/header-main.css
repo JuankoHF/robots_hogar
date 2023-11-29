@@ -11,14 +11,14 @@
 
 .image_and_description {
     width: 100%;
-    height: 460px;
+    height: auto;
     position: relative;
     display: flex;
     overflow: hidden;
 }
-.image_and_description {
+.image_and_description img{
     width: 100%;
-    height: 100%;
+    max-height: 450px;
     object-fit: cover;
 }
 .description_content {
@@ -27,6 +27,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    max-height: 450px;
     padding: 20px 8% 16px;
     display: flex;
     flex-direction: column;
@@ -62,5 +63,25 @@
     }
     .description_content p {
         font-size: var(--font-14-medium);
+    }
+}
+@media screen and (min-width: 700px) and (min-width: 510px) {
+   
+    .description_content {
+        justify-content: space-between;
+        padding: 70px 12% 90px;
+    }
+
+    .description_content h1 {
+        width: 60%;
+        max-width: 340px;
+        font-size: var(--font-28-big);
+        letter-spacing: 1.2px;
+    }
+    .description_content p {
+        width: 75%;
+        max-width: 450px;
+        font-size: var(--font-18-medium);
+        letter-spacing: 0.8px; 
     }
 }
