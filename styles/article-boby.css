@@ -122,3 +122,23 @@
     font-size: var(--font-12-medium);
     color: var(--total-black);
 }
+
+@media screen and (min-width: 400px) {
+    
+    .introduction {
+        width: 80%; 
+    }
+    .content_card_robots {
+        padding: 24px 0;
+        column-gap: 10%;
+        row-gap: 28px;
+    }
+
+    .card_container img {
+        height: 140px;
+       
+    }
+    .questions_and_response {
+        width: 80%;
+    }
+}

@@ -55,3 +55,12 @@
     font-weight: bold;
 
 }
+@media screen and (min-width: 400px) {
+   .description_content {
+        justify-content: space-between;
+        padding: 24px 12% 24px;
+    }
+    .description_content p {
+        font-size: var(--font-14-medium);
+    }
+}
