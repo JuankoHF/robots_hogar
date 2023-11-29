@@ -110,3 +110,9 @@
         letter-spacing: 0.8px; 
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .header_main {
+        padding: 60px 16% 0;
+    }
+}

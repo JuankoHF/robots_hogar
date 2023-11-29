@@ -275,3 +275,16 @@
         margin: 16px auto 0;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .list_nav_container {
+        padding: 36px 350px 24px;
+    }
+    .nav {
+        gap: 6px;
+    }
+    .nav li a {
+        font-size: var(--font-16-medium);
+        letter-spacing: 0.4px;
+    }
+}

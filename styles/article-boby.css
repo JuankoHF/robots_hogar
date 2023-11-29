@@ -225,3 +225,14 @@
     }
 
 }
+
+@media screen and (min-width: 1200px) {
+    .content_card_robots {
+        padding: 32px 0;
+        column-gap: 4%;
+        width: 90%;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+}
