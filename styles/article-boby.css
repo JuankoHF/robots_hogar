@@ -7,10 +7,11 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 40px;
+    padding: 40px 0;
+    gap: 24px;
 }
 .introduction {
-    width: 80%;
+    width: 90%;
     max-width: 800px;
     height: auto;
     display: flex;
@@ -19,6 +20,105 @@
     gap: 12px;
 }
 .introduction p {
+    font-size: var(--font-12-medium);
+    color: var(--total-black);
+}
+
+.examples_robots {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--secundary-color);
+    padding: 24px 0;
+}
+
+.examples_robots h2 {
+    width: 80%;
+    max-width: 800px;
+    font-size: var(--font-16-medium);
+    color: var(--white-page);
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+.examples_robots h2 strong {
+    color: var(--section-clear);
+    text-transform: uppercase;
+}
+.content_card_robots {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px 0;
+    display: grid;
+    column-gap: 8%;
+    row-gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card_container {
+    width: 100%;
+    max-width: 220px;
+    height: 260px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    background-color: var(--white-page);
+    border: solid 2px var(--section-clear);
+}
+.card_container img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-bottom: solid 2px var(--section-clear);
+}
+.card_container p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: var(--font-1-small);
+    color: var(--total-black);
+}
+.card_container a {
+    font-size: var(--font-12-medium);
+    color: var(--total-black);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px 20px;
+    border-radius: 8px;
+    background-color: var(--amz-primary-button);
+}
+
+.questions_and_response {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.robots {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.robots h2,
+.robots h3 {
+    font-size: var(--font-16-medium);
+    color: var(--total-black);
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.robots p {
     font-size: var(--font-12-medium);
     color: var(--total-black);
 }

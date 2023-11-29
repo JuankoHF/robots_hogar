@@ -27,21 +27,21 @@
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 30px 8%;
+    padding: 20px 8% 16px;
     display: flex;
     flex-direction: column;
-    gap: 46px;
+    gap: 24px;
     align-items: flex-start;
     justify-content: center;
-    background: #2a495f7a,;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #2a495f7a, var(--secundary-color));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #2a495f7a, var(--secundary-color)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2a495f61,;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2a495f61, var(--secundary-color));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2a495f61, var(--secundary-color)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .description_content h1 {
-    width: 70%;
+    width: 75%;
     font-size: var(--font-24-big);
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     color: var(--section-clear);
 }
 .description_content h1 strong {
@@ -49,7 +49,7 @@
 }
 .description_content p{
     width: 80%;
-    font-size: var(--font-14-medium);
+    font-size: var(--font-12-medium);
     letter-spacing: 0.6px;
     color: var(--white-page);
     font-weight: bold;
