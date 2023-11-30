@@ -80,3 +80,29 @@ footer {
     background-color: var(--white-page);
     border-radius: 6px;
 }
+
+@media screen and (min-width: 1900px) {
+    footer {
+        padding: 60px 0;
+    }
+    .content {
+        gap: 16px;
+        margin-bottom: 36px;
+    }
+    .content a {
+        font-size: 1.6rem;
+    }
+    .content_signature {
+        gap: 4px;
+        margin-bottom: 20px;
+    }
+    .content_signature p {
+        font-size: 1.2rem;
+    }
+    .tope_etymology p {
+        font-size: 1.2rem;
+    }
+    .icons_company {
+        margin-top: 36px;
+    }
+}

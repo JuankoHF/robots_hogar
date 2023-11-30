@@ -116,3 +116,34 @@
         padding: 60px 16% 0;
     }
 }
+
+@media screen and (min-width: 1900px) {
+    .header_main {
+        padding: 80px 24% 0;
+        align-items: center;
+    }
+
+    .image_and_description {
+        max-width: 1200px;
+    }
+    .image_and_description img {
+        width: 100%;
+        max-height: 550px;
+        object-fit: cover;
+    }
+    .description_content {
+        padding: 80px 12% 100px;
+        max-height: 550px;
+    }
+    .description_content h1 {
+        max-width: 400px;
+        font-size: var(--font-34-big);
+        letter-spacing: 1.4px;
+    }
+    .description_content p {
+        width: 75%;
+        max-width: 500px;
+        font-size: var(--font-24-big);
+        letter-spacing: 1px;
+    }
+}
