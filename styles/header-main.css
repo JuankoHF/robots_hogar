@@ -41,6 +41,7 @@
 }
 .description_content h1 {
     width: 75%;
+    font-family: 'Playfair Display', serif;
     font-size: var(--font-24-big);
     letter-spacing: 1px;
     color: var(--section-clear);
