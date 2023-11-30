@@ -1,0 +1,108 @@
+@import "./global.css";
+
+footer {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    background-color: var(--secundary-color);
+}
+.footer {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.content {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+.content a {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--white-page);
+    opacity: 0.8;
+    text-decoration: none;
+}
+.content_signature {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2px;
+    margin-bottom: 12px;
+}
+.content_signature p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white-page);
+}
+.content_signature p strong {
+    color: var(--section-clear);
+    font-size: 1.2rem;
+}
+
+.tope_etymology p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white-page);
+}
+.tope_etymology p strong {
+    color: var(--section-clear);
+}
+.icons_company {
+    width: 70%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+.icons_company img {
+    width: 40px;
+    height: 50px;
+    object-fit: cover;
+}
+.jnk {
+    width: 50px;
+    height: min-content;
+    background-color: var(--white-page);
+    border-radius: 6px;
+}
+
+@media screen and (min-width: 1900px) {
+    footer {
+        padding: 60px 0;
+    }
+    .content {
+        gap: 16px;
+        margin-bottom: 36px;
+    }
+    .content a {
+        font-size: 1.6rem;
+    }
+    .content_signature {
+        gap: 4px;
+        margin-bottom: 20px;
+    }
+    .content_signature p {
+        font-size: 1.2rem;
+    }
+    .tope_etymology p {
+        font-size: 1.2rem;
+    }
+    .icons_company {
+        margin-top: 36px;
+    }
+}

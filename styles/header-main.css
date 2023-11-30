@@ -11,14 +11,14 @@
 
 .image_and_description {
     width: 100%;
-    height: 460px;
+    height: auto;
     position: relative;
     display: flex;
     overflow: hidden;
 }
-.image_and_description {
+.image_and_description img{
     width: 100%;
-    height: 100%;
+    max-height: 450px;
     object-fit: cover;
 }
 .description_content {
@@ -27,21 +27,22 @@
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 30px 8%;
+    max-height: 450px;
+    padding: 20px 8% 16px;
     display: flex;
     flex-direction: column;
-    gap: 46px;
+    gap: 24px;
     align-items: flex-start;
     justify-content: center;
-    background: #2a495f7a,;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #2a495f7a, var(--secundary-color));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #2a495f7a, var(--secundary-color)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2a495f61,;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2a495f61, var(--secundary-color));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2a495f61, var(--secundary-color)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .description_content h1 {
-    width: 70%;
+    width: 75%;
     font-size: var(--font-24-big);
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     color: var(--section-clear);
 }
 .description_content h1 strong {
@@ -49,9 +50,100 @@
 }
 .description_content p{
     width: 80%;
-    font-size: var(--font-14-medium);
+    font-size: var(--font-12-medium);
     letter-spacing: 0.6px;
     color: var(--white-page);
     font-weight: bold;
 
+}
+@media screen and (min-width: 400px) {
+   .description_content {
+        justify-content: space-between;
+        padding: 24px 12% 24px;
+    }
+    .description_content p {
+        font-size: var(--font-14-medium);
+    }
+}
+@media screen and (min-width: 700px) and (min-height: 510px) {
+   
+    .description_content {
+        justify-content: space-between;
+        padding: 70px 12% 90px;
+    }
+
+    .description_content h1 {
+        width: 60%;
+        max-width: 340px;
+        font-size: var(--font-28-big);
+        letter-spacing: 1.2px;
+    }
+    .description_content p {
+        width: 75%;
+        max-width: 450px;
+        font-size: var(--font-18-medium);
+        letter-spacing: 0.8px; 
+    }
+}
+
+@media screen and (min-width: 830px) and (max-height: 509px) {
+    .image_and_description img {
+        width: 100%;
+        max-height: 360px;
+        object-fit: cover;
+    }
+    .description_content {
+        justify-content: space-between;
+        padding: 32px 16% 60px;
+        max-height: 360px;
+    }
+    .description_content h1 {
+        width: 60%;
+        max-width: 340px;
+        font-size: var(--font-28-big);
+        letter-spacing: 1.2px;
+    }
+    .description_content p {
+        width: 75%;
+        max-width: 450px;
+        font-size: var(--font-18-medium);
+        letter-spacing: 0.8px; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header_main {
+        padding: 60px 16% 0;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .header_main {
+        padding: 80px 24% 0;
+        align-items: center;
+    }
+
+    .image_and_description {
+        max-width: 1200px;
+    }
+    .image_and_description img {
+        width: 100%;
+        max-height: 550px;
+        object-fit: cover;
+    }
+    .description_content {
+        padding: 80px 12% 100px;
+        max-height: 550px;
+    }
+    .description_content h1 {
+        max-width: 400px;
+        font-size: var(--font-34-big);
+        letter-spacing: 1.4px;
+    }
+    .description_content p {
+        width: 75%;
+        max-width: 500px;
+        font-size: var(--font-24-big);
+        letter-spacing: 1px;
+    }
 }
