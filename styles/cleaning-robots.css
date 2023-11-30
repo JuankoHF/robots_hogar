@@ -1,0 +1,144 @@
+@import "./global.css";
+
+.introduction_content {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 0 20px;
+}
+
+.introduction_content h1 {
+    font-size: var(--font-16-medium);
+    color: var(--total-black);
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.clining {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.clining h2 {
+    font-size: var(--font-14-medium);
+    color: var(--total-black);
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.amz_product_description {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+.introduction_description p a {
+    text-decoration: none;
+    color: var(--total-black);
+}
+
+.amz_image_copy {
+    width: 90%;
+    max-width: 800px;
+    height: 200px;
+    gap: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.img_and_botton {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+.img_and_botton img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.amz_go_to {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 6px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: var(--total-black);
+    font-size: var(--font-1-small);
+    font-weight: bold;
+    background-color: var( --amz-primary-button);
+    border-radius: 6px;
+}
+
+.amz_go_to span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url(../icons/shopping-cart.svg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
+.description_door,
+.description_door2,
+.description_door3,
+.description_door4,
+.description_door5,
+.description_door6 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.description_door span,
+.description_door2 span,
+.description_door3 span,
+.description_door4 span,
+.description_door5 span,
+.description_door6 span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-image: url(../icons/arrow-down-black.svg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+   
+}
+
+.description_close,
+.description_close2,
+.description_close3,
+.description_close4,
+.description_close5,
+.description_close6 {
+    display: none;
+}
+.description_open {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.description_open li {
+    list-style: none;
+    font-size: var(--font-1-small);
+}
+
+.dor_arrow_up span {
+    transform: rotate(180deg);
+}
