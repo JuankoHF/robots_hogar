@@ -33,8 +33,6 @@ window.addEventListener('scroll', function() {
     let list3 = document.querySelector(".list3")
     
     
-    console.log(positionPopular);
-    console.log(scrollTop, "hei")
 
     if(positionPopular < scrollTop/3) {
         list1.classList.add("this_position");
