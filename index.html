@@ -43,10 +43,16 @@
 
         <nav class="list_nav_container">
             <ul class="nav">
-                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Inicio</a>
+                    <span class="open_chil"></span>
+                    <ul class="chil is_active">
+                        <li><a href="#popular">Robots domésticos más populares</a></li>
+                        <li><a href="#futur">Fundamentos y futuro </a></li>
+                        <li><a href="#robots">Tipos de Robots para tener en casa</a></li>
+                    </ul></li>
                 <li><a href="./pages/cleaning-robots.html">Robots de limpieza</a>
                     <span class="open_limp"></span>
-                    <ul class="limp">
+                    <ul class="limp is_active">
                         <li><a href="./pages/cleaning-robots.html#suelo">Robot para limpiar el suelo</a></li>
                         <li><a href="./pages/cleaning-robots.html#cristales">Robot para limpiar cristales</a></li>
                         <li><a href="./pages/cleaning-robots.html#piscina">Robot para limpiar Piscinas</a></li>
@@ -54,21 +60,13 @@
                 </li>
                 <li><a href="./pages/kitchen-robots.html">Robots de cocina</a>
                     <span class="open_coock"></span>
-                    <ul class="coock">
+                    <ul class="coock is_active">
                         <li><a href="./pages/kitchen-robots.html#batidor">Robot batidor</a></li>
                         <li><a href="./pages/kitchen-robots.html#multifuncion">Robot multifunción</a></li>
                         <li><a href="./pages/kitchen-robots.html#vapor">Robot de cocina al vapor</a></li>
                     </ul>
                 </li>
                 <li><a translate="no" href="./pages/grass-robots.html">Robot cortacesped</a></li>
-                <li><a href="#">Robots para niños</a>
-                    <span class="open_chil"></span>
-                    <ul class="chil">
-                        <li><a href="">Niños menores de 2 años </a></li>
-                        <li><a href="">Niños entre 3 y 7 años</a></li>
-                        <li><a href="">Niños mayores de 8 años</a></li>
-                    </ul>
-                </li>
                 <li class="go_tope">
                     <a target="_blank" href="https://topedigital.com/">
                         conozca nuestra agencia <strong translate="no">TOPE</strong>
@@ -92,7 +90,7 @@
             </div>
         </section>
         
-        <section class="article_body">
+        <section class="article_body" id="intro">
             <div class="introduction">
                 <p>
                     En este articulo abordaremos una temática sorprendente, actual y también futurista, 
@@ -104,7 +102,7 @@
                     que nos hacen la vida diaria un poco más sencilla.  Es por ello que, desde <strong translate="no">TOPE</strong><strong>, agencia de soluciones digitales</strong>, 
                     hemos decidido hacer este artículo donde responderemos algunas interrogantes que muchos tenemos o hemos tenido en algún momento. 
                 </p>
-                <p>
+                <p id="popular">
                     Conoceremos <strong> a que llamamos robots</strong>. Sabremos <strong> que tipos de robots podemos tener en casa</strong>, como nos ayudan y 
                     como sacarles el mejor provecho. También vamos a orientarte para que puedas conocer las diferentes variantes 
                     de <strong>robots que utilizamos a diario</strong> y te daremos la posibilidad de que puedas escoger las mejores 
@@ -120,7 +118,7 @@
                     <div class="card_container">
                         <img src="./images/r_multifuncion_termonix.jpg" alt="robot de cocina">
                         <p>
-                            "Mambo" es un <strong> robot de cocina multifunción</strong> muy popular e ideal para cocinar
+                            "Thermomix" es un <strong> robot de cocina multifunción</strong> muy popular e ideal para cocinar
                             practicamente cualquier alimento.
                         </p>
                         <a target="_blank" href="https://amzn.to/46C3RZy">Ver oferta</a>
@@ -153,7 +151,7 @@
 
             </section>
 
-            <div class="questions_and_response">
+            <div class="questions_and_response" id="futur">
                 <div class="robots robots_question">
                     <h2>Un Vistazo al Futuro en Nuestros Hogares</h2>
 
@@ -184,7 +182,7 @@
                         para que podamos concentrarnos en lo que es realmente importante para cas uno de nosotros.
                     </p>
 
-                    <p>
+                    <p id="robots">
                         En el ámbito de los <strong> robots asistentes del hogar</strong>, la tecnología ha dado pasos agigantados. 
                         Desde <strong> asistentes virtuales</strong> como Alexa y Google Home hasta robots que ayudan en la cocina, estos dispositivos 
                         han llegado para simplificar nuestras vidas. Pueden responder preguntas, controlar dispositivos conectados, 
@@ -192,7 +190,7 @@
                     </p>
                 </div>
 
-                <div class="robots robots_in_house">
+                <div class="robots robots_in_house" >
                     <h2>¿Qué tipo de robots podemos tener en casa?</h2>
 
                     <p>
