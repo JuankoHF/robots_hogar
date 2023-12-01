@@ -146,3 +146,111 @@
 .link_intern {
     color: var(--primary-color);
 }
+
+@media screen and (min-width: 400px) {
+    .amz_go_to {
+        width: 100%;
+        max-width: 240px;
+        padding: 6px 14px;
+        color: var(--total-black);
+    }
+}
+
+@media screen and (min-width: 700px) and (min-height: 510px) {
+    .introduction_content h1 {
+        font-size: var(--font-2-medium);
+        letter-spacing: 0.8px;
+        margin-bottom: 24px;
+    }
+
+    .clining h2 {
+        font-size: var(--font-18-medium);
+        letter-spacing: 0.6px;
+    }
+   
+    .amz_image_copy {
+        width: 80%;
+        height: 240px;
+        margin: 16px 0;
+    }
+    .amz_go_to {
+        padding: 8px 20px;
+        font-size: var(--font-14-medium);
+        border-radius: 8px;
+    }
+    .amz_go_to span {
+        width: 20px;
+        height: 20px;
+
+    }
+    .description_open li {
+        list-style: none;
+        font-size: var(--font-14-medium);
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .amz_image_copy {
+        width: 80%;
+        height: 260px;
+        margin: 16px 0;
+        gap: 24px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .introduction_content h1 {
+        font-size: var(--font-24-big);
+        letter-spacing: 0.8px;
+        margin-bottom: 28px;
+    }
+    .clining h2 {
+        font-size: var(--font-2-medium);
+        letter-spacing: 0.6px;
+    }
+    .amz_product_description {
+        width: 100%;
+        padding: 24px 0;
+    }
+    .amz_image_copy {
+        width: 80%;
+        height: 280px;
+        margin: 32px 0;
+        gap: 34px;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .introduction_content {
+        padding: 130px 0 40px;
+    }
+    .introduction_content h1 {
+        font-size: var(--font-3-big);
+        letter-spacing: 1px;
+        margin-bottom: 32px;
+    }
+    .clining h2 {
+        font-size: var(--font-24-big);
+        letter-spacing: 0.8px;
+    }
+    .amz_image_copy {
+        width: 80%;
+        height: 340px;
+        margin: 40px 0;
+        gap: 34px;
+    }
+    .amz_go_to {
+        max-width: 300px;
+        padding: 8px 30px;
+        font-size: var(--font-16-medium);
+        border-radius: 10px;
+    }
+    .amz_go_to span {
+        width: 24px;
+        height: 24px;
+       
+    }
+    .description_open li {
+        list-style: none;
+        font-size: var(--font-16-medium);
+    }
+}
