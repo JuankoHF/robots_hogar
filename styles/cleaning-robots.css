@@ -142,3 +142,7 @@
 .dor_arrow_up span {
     transform: rotate(180deg);
 }
+
+.link_intern {
+    color: var(--primary-color);
+}
