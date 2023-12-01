@@ -189,13 +189,21 @@
     height: auto;
     text-decoration: none;
     color: var(--white-page);
+    opacity: 0.6;
     font-weight: bold;
     font-size: var(--font-14-medium);
     text-transform: capitalize;
 }
+.nav li .this_position {
+    opacity: 1;
+    letter-spacing: 0.2px;
+    font-size: var(--font-14-medium);
+    text-transform: uppercase;
+}
 .nav .go_tope a {
     font-size: var(--font-12-medium);
     text-align: center;
+    opacity: 1;
 }
 .nav .go_tope a strong {
     color: var(--section-clear);
