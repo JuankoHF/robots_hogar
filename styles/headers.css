@@ -189,13 +189,21 @@
     height: auto;
     text-decoration: none;
     color: var(--white-page);
+    opacity: 0.6;
     font-weight: bold;
     font-size: var(--font-14-medium);
     text-transform: capitalize;
 }
+.nav li .this_position {
+    opacity: 1;
+    letter-spacing: 0.2px;
+    font-size: var(--font-14-medium);
+    text-transform: uppercase;
+}
 .nav .go_tope a {
     font-size: var(--font-12-medium);
     text-align: center;
+    opacity: 1;
 }
 .nav .go_tope a strong {
     color: var(--section-clear);
@@ -290,6 +298,10 @@
         font-size: var(--font-16-medium);
         letter-spacing: 0.4px;
     }
+    .nav li .this_position {
+        letter-spacing: 0.4px;
+        font-size: var(--font-18-medium);
+    }
 }
 
 @media screen and (min-width: 1900px) {
@@ -347,6 +359,9 @@
     .nav li a {
         font-size: var(--font-24-big);
         letter-spacing: 0.8px;
+    }
+    .nav li .this_position {
+        font-size: var(--font-28-big);
     }
     .nav li span {
         width: 18px;

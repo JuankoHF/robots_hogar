@@ -1,4 +1,6 @@
-document.querySelector(".header_right").addEventListener ("click", openMenu);
+document.querySelector(".header_right").addEventListener("click", openMenu);
+document.querySelector(".is_active").addEventListener("click", openMenu);
+
 
 let menu = document.querySelector(".list_nav_container");
 let menuBars = document.querySelector(".menu");
