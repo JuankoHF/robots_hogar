@@ -122,6 +122,10 @@
     font-size: var(--font-12-medium);
     color: var(--total-black);
 }
+.robots p a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
 
 @media screen and (min-width: 400px) {
     
