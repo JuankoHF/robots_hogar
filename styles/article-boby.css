@@ -118,6 +118,10 @@
     text-transform: uppercase;
     margin-bottom: 4px;
 }
+.robots h3 a {
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
 .robots p {
     font-size: var(--font-12-medium);
     color: var(--total-black);
