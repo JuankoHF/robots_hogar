@@ -45,8 +45,8 @@
     padding: 20px 0;
 }
 .introduction_description p a {
-    text-decoration: none;
-    color: var(--total-black);
+    font-weight: bold;
+    color: var(--primary-color);
 }
 
 .amz_image_copy {
